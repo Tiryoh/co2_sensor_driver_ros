@@ -14,8 +14,11 @@ class MHZ14A():
     ZERO = [0xff, 0x01, 0x87, 0x00, 0x00, 0x00, 0x00, 0x00, 0x78]
 
     def __init__(self, port, baud=9600, timeout=1):
-        self.serial = serial.Serial(port, baud, timeout=timeout)
-        rospy.sleep(2)
+        try:
+            self.serial = serial.Serial(port, baud, timeout=timeout)
+            rospy.sleep(2)
+        except serial.serialutil.SerialException as e:
+            rospy.logerr(e)
 
     def set_zero(self):
         self.serial.write(bytearray(MHZ14A.ZERO))
@@ -39,4 +42,7 @@ class MHZ14A():
         }
 
     def close(self):
-        self.serial.close()
+        try:
+            self.serial.close()
+        except AttributeError as e:
+            rospy.logerr(e)

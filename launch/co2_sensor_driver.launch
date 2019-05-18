@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="co2_sensor_driver" name="co2_sensor" type="co2_sensor_node.py" required="true" output="screen">
+    <param name="serial_port" value="/dev/ttyUSB0" />
+    <param name="serial_timeout" value="1" />
+  </node>
+</launch>

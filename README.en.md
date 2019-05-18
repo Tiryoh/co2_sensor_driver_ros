@@ -1,6 +1,6 @@
 # co2_sensor_driver_ros
 
-CO2 sensor driver e.g.) MH-Z14A , MH-Z19
+CO2 sensor driver e.g.) MH-Z14A, MH-Z19
 
 
 ## Requirements
@@ -23,7 +23,7 @@ source ~/catkin_ws/devel/setup.bash
 ## Usage
 
 ```sh
-rosrun co2_sensor_driver co2_sensor_node.py
+roslaunch co2_sensor_driver co2_sensor_driver.launch
 ```
 
 ## License
