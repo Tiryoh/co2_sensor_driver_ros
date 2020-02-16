@@ -18,8 +18,10 @@
   <build_depend>message_generation</build_depend>
   <build_export_depend>rospy</build_export_depend>
   <build_export_depend>message_generation</build_export_depend>
+  <exec_depend>roslaunch</exec_depend>
   <exec_depend>rospy</exec_depend>
   <exec_depend>message_runtime</exec_depend>
+  <test_depend>roslaunch</test_depend>
 
   <export>
   </export>
