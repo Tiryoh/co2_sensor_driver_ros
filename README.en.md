@@ -1,5 +1,7 @@
 # co2_sensor_driver_ros
 
+![CI](https://github.com/Tiryoh/co2_sensor_driver_ros/workflows/CI/badge.svg?branch=master)
+
 CO2 sensor driver e.g.) MH-Z14A, MH-Z19
 
 
