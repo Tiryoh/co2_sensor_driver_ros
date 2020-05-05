@@ -15,6 +15,6 @@ jobs:
         run: |
           echo $PR_TITLE | grep -e "release.*" || exit 1
           git remote set-url origin https://${GITHUB_ACTOR}:${{ secrets.MY_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git tag $(echo $PR_TITLE | sed -E 's/.* ([0-9\-\.]*)$/\1/g')
+          git tag $(echo $PR_TITLE | sed -E 's/.* ([0-9\-\.]*)/\1/g')
           git tag -l
           git push origin -f --tags
