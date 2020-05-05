@@ -2,8 +2,8 @@
 Changelog for package co2_sensor_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.1 (2020-05-05)
+------------------
 * ci: Update trigger message name (`#7 <https://github.com/Tiryoh/co2_sensor_driver_ros/issues/7>`_)
 * ci: Fix syntax error (`#5 <https://github.com/Tiryoh/co2_sensor_driver_ros/issues/5>`_)
 * ci: Add tag release action
