@@ -1,6 +1,6 @@
 # co2_sensor_driver_ros
 
-![CI](https://github.com/Tiryoh/co2_sensor_driver_ros/workflows/CI/badge.svg?branch=master)
+[![CI](https://github.com/Tiryoh/co2_sensor_driver_ros/workflows/CI/badge.svg?branch=master)](https://github.com/Tiryoh/co2_sensor_driver_ros/actions?query=workflow%3ACI+branch%3Amaster)
 
 CO2 sensor driver e.g.) MH-Z14A, MH-Z19
 
@@ -30,6 +30,5 @@ roslaunch co2_sensor_driver co2_sensor_driver.launch
 
 ## License
 
-This repository is licensed under the MIT license, see [LICENSE](./LICENSE).
-
+This repository is licensed under the MIT license, see [LICENSE](./LICENSE).  
 Unless attributed otherwise, everything in this repository is under the MIT license.
